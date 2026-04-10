@@ -1,14 +1,14 @@
-    /*
- * Brighton Ng
- * Mar 24
- * Checks whether the user's guess matches a generated random number.
- */
+/*
+Brighton Ng
+Apr 9 2026
+Runs a guessing game until the user matches the generated number.
+*/
 
 package ch6;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Guessing {
+public class GuessingGame {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -35,5 +35,3 @@ public class Guessing {
     }
 }
 }
-
-

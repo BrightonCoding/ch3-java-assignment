@@ -1,7 +1,13 @@
+/*
+Brighton Ng
+Apr 9 2026
+Finds the greatest common divisor of two integers.
+*/
+
 package ch6;
 import java.util.*;
 
-public class Divisor {
+public class GCD {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num1 = scanner.nextInt();

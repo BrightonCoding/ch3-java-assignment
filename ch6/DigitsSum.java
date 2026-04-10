@@ -1,7 +1,13 @@
+/*
+Brighton Ng
+Apr 9 2026
+Calculates the sum of the digits in an integer.
+*/
+
 package ch6;
 import java.util.*;
 
-public class Sum {
+public class DigitsSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

@@ -1,3 +1,9 @@
+/*
+Brighton Ng
+Apr 9 2026
+Calculates how many years an investment takes to reach a target amount.
+*/
+
 package ch6;
 import java.util.*;
 

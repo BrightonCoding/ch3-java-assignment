@@ -1,3 +1,9 @@
+/*
+Brighton Ng
+Apr 9 2026
+Prints a table of powers for values from 1 to 6.
+*/
+
 package ch6;
 
 public class PowersTable {

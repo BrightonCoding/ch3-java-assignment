@@ -1,12 +1,12 @@
 /*
- * Brighton Ng
- * Mar 24
- * Determines whether a car model is safe.
- */
+Brighton Ng
+Apr 9 2026
+Determines whether a car model is included in the recall list.
+*/
 package ch6;
 import java.util.Scanner;
 
-public class Car {
+public class CarRecall {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         // Read the car model number to evaluate.

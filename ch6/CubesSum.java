@@ -1,7 +1,13 @@
+/*
+Brighton Ng
+Apr 9 2026
+Calculates the sum of the cubes of an integer's digits.
+*/
+
 package ch6;
 import java.util.*;
 
-public class Cube {
+public class CubesSum {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

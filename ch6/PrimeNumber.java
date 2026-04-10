@@ -1,7 +1,13 @@
+/*
+Brighton Ng
+Apr 9 2026
+Checks whether an input number is prime.
+*/
+
 package ch6;
 import java.util.*;
 
-public class Prime {
+public class PrimeNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
