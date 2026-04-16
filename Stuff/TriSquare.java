@@ -1,6 +1,6 @@
 public class TriSquare {
     public static void main(String[] args) {
-        //Initialize 
+        //Initialize variables
         int size = 13;
         int triHeight = (size+1)/2;
 
