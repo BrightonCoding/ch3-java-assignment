@@ -1,6 +1,6 @@
 /*
- * GeneratedNums.java
- * Brighton Ng
+ * GeneratedNums
+ * Brighton
  * Generates a number for each array element by summing
  *              the index and its individual digits. Uses 101 elements.
  *              Example: index 17 -> 17 + 1 + 7 = 25

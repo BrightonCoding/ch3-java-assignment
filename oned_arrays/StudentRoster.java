@@ -1,12 +1,11 @@
 /*
  * StudentRoster.java
- * Author: Brighton Ng
- * Date: May 1, 2026
- * Description: Prompts the user for student names, stores them
+ * Brighton
+ * Prompts the user for student names, stores them
  *              in an array, then prints the list and reverse list.
  */
 
-package chapter10;
+package oned_arrays;
 
 import java.util.Scanner;
 

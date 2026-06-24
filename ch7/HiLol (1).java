@@ -1,9 +1,9 @@
-package chapter7;
+package ch7;
 
 /*
- * Name: Brighton Ng
- * Date: April 29, 2026
- * Program: HiLo.java
+ * Brighton
+ * April 29, 2026
+ * HiLo.java
  */
 
 import java.util.Scanner;
@@ -11,6 +11,11 @@ import java.util.Random;
 
 public class HiLol {
 
+    /**
+     * Determines the result of the HiLo game.
+     * pre: number is between 1 and 13, range is either "Hi" or "Lo"
+     * post: returns 1 for a win, -1 for a loss, or 0 for a draw (7)
+     */
     public static int getResult(int number, String range) {
         if (number == 7) {
             return 0;

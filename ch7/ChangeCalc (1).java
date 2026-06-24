@@ -1,17 +1,22 @@
-package chapter7;
+package ch7;
 
 /*
- * Name: Brighton Ng
- * Date: April 29, 2026
- * Program: ChangeCalculator.java
- * Description: Calculates the total cent value of Anatoly's coins
- *              (quarters, dimes, nickels, pennies) using a method.
+ * Brighton
+ * April 29, 2026
+ * ChangeCalculator.java
+ * Calculates the total cent value of Anatoly's coins
+ * (quarters, dimes, nickels, pennies) using a method.
  */
 
 import java.util.Scanner;
 
 public class ChangeCalc {
 
+    /**
+     * Calculates the total value of coins in cents.
+     * pre: quarters, dimes, nickels, and pennies are non-negative integers
+     * post: returns the total cent value of all coins combined
+     */
     public static int getCents(int quarters, int dimes, int nickels, int pennies) {
         int total = (quarters * 25) + (dimes * 10) + (nickels * 5) + (pennies * 1);
         return total;

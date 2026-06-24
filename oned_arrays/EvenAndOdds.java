@@ -1,8 +1,7 @@
 /*
  * EvensAndOdds.java
- * Author: Brighton Ng
- * Date: May 1, 2026
- * Description: Generates 25 random integers between 0 and 99,
+ * Brighton
+ * Generates 25 random integers between 0 and 99,
  *              then displays evens on one line and odds on another.
  */
 

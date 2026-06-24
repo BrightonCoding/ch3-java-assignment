@@ -1,23 +1,32 @@
-package chapter7;
+package ch7;
 
 /*
- * Name: Brighton Ng
- * Date: April 29, 2026
- * Program: IsoTriangle.java
- * Description: Prompts the user for a size and displays
- *              an isosceles triangle of that many lines.
+ * Brighton
+ * April 29, 2026
+ * IsoTriangle.java
+ * Prompts the user for a size and displays an isosceles triangle of that many lines.
  */
 
 import java.util.Scanner;
 
 public class IsoTri {
 
+    /**
+     * Prints a specified number of spaces.
+     * pre: num is non-negative
+     * post: num spaces printed on the same line
+     */
     public static void addSpaces(int num) {
         for (int i = 0; i < num; i++) {
             System.out.print(" ");
         }
     }
 
+    /**
+     * Draws a bar of asterisks and moves to the next line.
+     * pre: length is positive
+     * post: a bar of length asterisks is displayed
+     */
     public static void drawBar(int length) {
         for (int i = 0; i < length; i++) {
             System.out.print("*");

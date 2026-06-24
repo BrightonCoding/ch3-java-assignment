@@ -1,6 +1,6 @@
 /*
  * RandomStats.java
-Brighton Ng
+ * Brighton
  * Generates 500 random numbers between 0 and 9,
  *              then displays the number of occurrences of each digit.
  */

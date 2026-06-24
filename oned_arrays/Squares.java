@@ -1,6 +1,6 @@
 /*
  * Squares.java
- * Brighton Ng
+ * Brighton
  * Stores the square of each element's index in an
  *              integer array of 5 elements, then displays them.
  */

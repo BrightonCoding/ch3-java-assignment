@@ -1,15 +1,20 @@
-package chapter7;
+package ch7;
 
 /*
- * Name: Brighton Ng
- * Date: April 29, 2026
- * Program: PerfectIntegers.java
- * Description: Displays all perfect integers up to 100.
- *              A perfect integer equals the sum of its factors (excluding itself).
+ * Brighton
+ * April 29, 2026
+ * PerfectIntegers.java
+ * Displays all perfect integers up to 100.
+ * A perfect integer equals the sum of its factors (excluding itself).
  */
 
 public class PerfInt {
 
+    /**
+     * Determines if a number is a perfect integer.
+     * pre: num is a positive integer
+     * post: returns true if the sum of factors (excluding num) equals num, false otherwise
+     */
     public static boolean isPerfect(int num) {
         int sum = 0;
         // i < num so we never include the number itself as a factor
