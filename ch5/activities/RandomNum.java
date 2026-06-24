@@ -4,6 +4,8 @@
  * Prompts the user for a minimum and maximum value and displays a random integer.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class RandomNum {

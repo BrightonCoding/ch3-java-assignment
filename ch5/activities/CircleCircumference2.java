@@ -4,6 +4,8 @@
  * Calculates a circle's circumference or reports an illegal negative radius.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class CircleCircumference2 {

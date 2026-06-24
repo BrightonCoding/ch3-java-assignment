@@ -4,6 +4,8 @@
  * Prompts the user for a wave height and recommends surfing or body boarding.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class Surfsup2 {

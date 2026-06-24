@@ -4,6 +4,8 @@
  * Determines whether an entered integer is a perfect square.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class PerfectSquare {

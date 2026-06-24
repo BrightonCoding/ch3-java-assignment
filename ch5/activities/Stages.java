@@ -4,6 +4,8 @@
  * Prompts the user for an age and displays the life stage.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class Stages {

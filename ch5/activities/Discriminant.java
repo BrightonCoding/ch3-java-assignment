@@ -4,6 +4,8 @@
  * Determines the number of roots of a quadratic equation using the discriminant.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class Discriminant {

@@ -4,6 +4,8 @@
  * Prompts the user for a wave height and displays the best water activity.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class Surfsup3 {

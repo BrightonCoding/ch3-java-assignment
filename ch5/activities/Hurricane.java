@@ -4,6 +4,8 @@
  * Displays hurricane wind speed ranges based on the entered category.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class Hurricane {

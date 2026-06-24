@@ -4,6 +4,8 @@
  * Determines whether a package should be accepted or rejected based on its dimensions.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class Delivery {

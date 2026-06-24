@@ -4,6 +4,8 @@
  * Prompts the user for a wave height and displays a surfing message.
  */
 
+package ch5.activities;
+
 import java.util.Scanner;
 
 public class Surfsup1 {
