@@ -12,6 +12,11 @@ import java.util.Scanner;
 
 public class StudentRoster {
 
+    /**
+     * Prints the contents of a String array in square bracket format.
+     * Precondition:  names is a non-null String array with at least one element.
+     * Postcondition: The names are printed to the console in the format [A, B, C].
+     */
     public static void printList(String[] names) {
         System.out.print("[");
         for (int i = 0; i < names.length; i++) {
@@ -23,6 +28,11 @@ public class StudentRoster {
         System.out.println("]");
     }
 
+    /**
+     * Prints the contents of a String array in reverse order in square bracket format.
+     * Precondition:  names is a non-null String array with at least one element.
+     * Postcondition: The names are printed in reverse order in the format [C, B, A].
+     */
     public static void printReverse(String[] names) {
         System.out.print("[");
         for (int i = names.length - 1; i >= 0; i--) {

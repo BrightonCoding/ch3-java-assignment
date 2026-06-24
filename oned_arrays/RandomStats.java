@@ -1,12 +1,11 @@
 /*
  * RandomStats.java
- * Author: Brighton Ng
- * Date: May 1, 2026
- * Description: Generates 500 random numbers between 0 and 9,
+Brighton Ng
+ * Generates 500 random numbers between 0 and 9,
  *              then displays the number of occurrences of each digit.
  */
 
-package chapter10;
+package oned_arrays;
 
 import java.util.Random;
 

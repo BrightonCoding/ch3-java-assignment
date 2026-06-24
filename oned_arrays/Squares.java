@@ -1,12 +1,11 @@
 /*
  * Squares.java
- * Author: Brighton Ng
- * Date: May 1, 2026
- * Description: Stores the square of each element's index in an
+ * Brighton Ng
+ * Stores the square of each element's index in an
  *              integer array of 5 elements, then displays them.
  */
 
-package chapter10;
+package oned_arrays;
 
 public class Squares {
 

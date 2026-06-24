@@ -1,16 +1,20 @@
 /*
  * GeneratedNums.java
- * Author: Brighton Ng
- * Date: May 1, 2026
- * Description: Generates a number for each array element by summing
+ * Brighton Ng
+ * Generates a number for each array element by summing
  *              the index and its individual digits. Uses 101 elements.
  *              Example: index 17 -> 17 + 1 + 7 = 25
  */
 
-package chapter10;
+package oned_arrays;
 
 public class GeneratedNums {
 
+    /**
+     * Calculates the sum of all individual digits of a given integer.
+     * Precondition:  num is a non-negative integer.
+     * Postcondition: Returns the sum of each digit in num.
+     */
     public static int digitSum(int num) {
         int sum = 0;
         // % 10 peels off the last digit, / 10 drops it — repeat until nothing left
