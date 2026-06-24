@@ -9,29 +9,26 @@ public class MatrixTest {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// read the size of the matrix
 		int numRows = input.nextInt();
 		int numCols = input.nextInt();
 
-		// grid holds current values, maxEverGrid tracks the highest value ever at each spot
+		// +1 so we can use 1-based indexing to match the input format
 		int[][] grid = new int[numRows + 1][numCols + 1];
 		int[][] maxEverGrid = new int[numRows + 1][numCols + 1];
 
-		// fill in the starting values - index starts at 1 to match the problem's 1-based input
 		for (int row = 1; row <= numRows; row++) {
 			for (int col = 1; col <= numCols; col++) {
 				grid[row][col] = input.nextInt();
-				maxEverGrid[row][col] = grid[row][col]; // initial value counts as the max too
+				maxEverGrid[row][col] = grid[row][col];
 			}
 		}
 
-		int numQueries = input.nextInt(); // number of queries coming in
+		int numQueries = input.nextInt();
 
 		for (int queryIndex = 0; queryIndex < numQueries; queryIndex++) {
 			String operation = input.next();
 
 			if (operation.equals("C")) {
-				// change: update the value and check if it's a new max
 				int row = input.nextInt();
 				int col = input.nextInt();
 				int newValue = input.nextInt();
@@ -40,12 +37,10 @@ public class MatrixTest {
 					maxEverGrid[row][col] = newValue;
 				}
 			} else if (operation.equals("Q")) {
-				// query: just print the current value
 				int row = input.nextInt();
 				int col = input.nextInt();
 				System.out.println(grid[row][col]);
 			} else if (operation.equals("M")) {
-				// max: print the highest value that's ever been at this spot
 				int row = input.nextInt();
 				int col = input.nextInt();
 				System.out.println(maxEverGrid[row][col]);
